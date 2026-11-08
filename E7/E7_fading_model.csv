@@ -1,0 +1,5 @@
+fading_mode,shadowing_sigma_db,rayleigh,mobility_per
+full,"6 at <=0 km, rising 4 dB per 5 km (6-10 dB cap), redrawn independently per packet","amplitude of 2 Gaussians, normalised, clamped to [-20,+6] dB, only for d>100 m, per packet",doppler/coherence-time PER only when mobility_per=true (otherwise speed does not enter the error model)
+none,0,off,see above
+shadowing_only,as full,off,see above
+rayleigh_only,0,as full,see above

@@ -1,0 +1,7 @@
+interval_s,mode,N90,G_at_N90,grid_min_N,grid_max_N
+5.0,confirmed,52.621114738965275,0.6180611337987992,26,137
+5.0,unconfirmed,,,26,137
+10.0,confirmed,105.09679552400806,0.612168188048529,51,154
+10.0,unconfirmed,,,51,154
+30.0,confirmed,,,154,154
+30.0,unconfirmed,,,154,154

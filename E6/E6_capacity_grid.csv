@@ -1,0 +1,7 @@
+n_channels,n_gateways,variant,mode,N90_linear_of_mean,grid_min_N,grid_max_N,note,N90_seed_min,N90_seed_max,N90_seed_mean
+1,1,ch1,confirmed,57.017853585042545,45,70,,56.353646872693744,57.49824107785538,57.02522079301885
+1,1,ch1,unconfirmed,,45,70,PDR<0.9 already at smallest N,,,
+2,1,ch2,confirmed,112.65515077738603,80,170,,112.14540112263212,113.2408671582355,112.65189819897807
+2,1,ch2,unconfirmed,,80,170,PDR<0.9 already at smallest N,,,
+8,1,ch8,confirmed,,200,200,PDR>=0.9 on whole grid: capacity above grid max,,,
+8,1,ch8,unconfirmed,,200,200,PDR<0.9 already at smallest N,,,

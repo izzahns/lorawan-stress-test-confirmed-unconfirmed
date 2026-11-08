@@ -1,0 +1,123 @@
+experiment,check,result,detail
+E1,"delivered<=generated and PDR in [0,1]",pass,"480 runs, 0 violations"
+E1,sum(loss_causes)==attempts logged,pass,max abs diff 0
+E1,"attempts_hist reproduces total transmissions (tolerance 5 = transmissions still on air when the run ends, no gateway outcome logged yet)",pass,max abs diff 0; runs with diff>0: 0
+E1,attempts_hist counts all generated packets,pass,max abs diff 0
+E1,confirmed: acked<=delivered,pass,0 violations
+E1,unconfirmed: acked==0,pass,0 violations
+E1,node_level sums equal run totals,pass,max abs diff 0
+E1,seeds differ (distinct delivered counts per cell),pass,24/24 cells with >=2 seeds have distinct counts
+E1,effective config (simulator-logged) == requested run spec,pass,"480 runs, 0 mismatches (N, mode, interval, seed, channels/ADR)"
+E1,TX energy/delivered finite and >= one airtime*I*V,pass,"480 runs with deliveries, 0 violations; 0 runs with 0 deliveries"
+E1,"all runs completed, status ok",pass,0 runs not ok
+E10,"delivered<=generated and PDR in [0,1]",pass,"180 runs, 0 violations"
+E10,sum(loss_causes)==attempts logged,pass,max abs diff 0
+E10,"attempts_hist reproduces total transmissions (tolerance 5 = transmissions still on air when the run ends, no gateway outcome logged yet)",pass,max abs diff 0; runs with diff>0: 0
+E10,attempts_hist counts all generated packets,pass,max abs diff 0
+E10,confirmed: acked<=delivered,pass,0 violations
+E10,unconfirmed: acked==0,pass,0 violations
+E10,node_level sums equal run totals,pass,max abs diff 0
+E10,seeds differ (distinct delivered counts per cell),pass,18/18 cells with >=2 seeds have distinct counts
+E10,effective config (simulator-logged) == requested run spec,pass,"180 runs, 0 mismatches (N, mode, interval, seed, channels/ADR)"
+E10,TX energy/delivered finite and >= one airtime*I*V,pass,"180 runs with deliveries, 0 violations; 0 runs with 0 deliveries"
+E10,"all runs completed, status ok",pass,0 runs not ok
+E11,"delivered<=generated and PDR in [0,1]",pass,"250 runs, 0 violations"
+E11,sum(loss_causes)==attempts logged,pass,max abs diff 0
+E11,"attempts_hist reproduces total transmissions (tolerance 5 = transmissions still on air when the run ends, no gateway outcome logged yet)",pass,max abs diff 0; runs with diff>0: 0
+E11,attempts_hist counts all generated packets,pass,max abs diff 0
+E11,confirmed: acked<=delivered,pass,0 violations
+E11,unconfirmed: acked==0,pass,0 violations
+E11,node_level sums equal run totals,pass,max abs diff 0
+E11,seeds differ (distinct delivered counts per cell),pass,25/25 cells with >=2 seeds have distinct counts
+E11,effective config (simulator-logged) == requested run spec,pass,"250 runs, 0 mismatches (N, mode, interval, seed, channels/ADR)"
+E11,TX energy/delivered finite and >= one airtime*I*V,pass,"250 runs with deliveries, 0 violations; 0 runs with 0 deliveries"
+E11,"all runs completed, status ok",pass,0 runs not ok
+E12,"delivered<=generated and PDR in [0,1]",pass,"240 runs, 0 violations"
+E12,sum(loss_causes)==attempts logged,pass,max abs diff 0
+E12,"attempts_hist reproduces total transmissions (tolerance 5 = transmissions still on air when the run ends, no gateway outcome logged yet)",pass,max abs diff 0; runs with diff>0: 0
+E12,attempts_hist counts all generated packets,pass,max abs diff 0
+E12,confirmed: acked<=delivered,pass,0 violations
+E12,unconfirmed: acked==0,pass,0 violations
+E12,node_level sums equal run totals,pass,max abs diff 0
+E12,seeds differ (distinct delivered counts per cell),pass,24/24 cells with >=2 seeds have distinct counts
+E12,effective config (simulator-logged) == requested run spec,pass,"240 runs, 0 mismatches (N, mode, interval, seed, channels/ADR)"
+E12,TX energy/delivered finite and >= one airtime*I*V,pass,"240 runs with deliveries, 0 violations; 0 runs with 0 deliveries"
+E12,"all runs completed, status ok",pass,0 runs not ok
+E2,"delivered<=generated and PDR in [0,1]",pass,"220 runs, 0 violations"
+E2,sum(loss_causes)==attempts logged,pass,max abs diff 0
+E2,"attempts_hist reproduces total transmissions (tolerance 5 = transmissions still on air when the run ends, no gateway outcome logged yet)",pass,max abs diff 0; runs with diff>0: 0
+E2,attempts_hist counts all generated packets,pass,max abs diff 0
+E2,confirmed: acked<=delivered,pass,0 violations
+E2,unconfirmed: acked==0,pass,0 violations
+E2,node_level sums equal run totals,pass,max abs diff 0
+E2,seeds differ (distinct delivered counts per cell),pass,22/22 cells with >=2 seeds have distinct counts
+E2,effective config (simulator-logged) == requested run spec,pass,"220 runs, 0 mismatches (N, mode, interval, seed, channels/ADR)"
+E2,TX energy/delivered finite and >= one airtime*I*V,pass,"220 runs with deliveries, 0 violations; 0 runs with 0 deliveries"
+E2,"all runs completed, status ok",pass,0 runs not ok
+E3,"delivered<=generated and PDR in [0,1]",pass,"250 runs, 0 violations"
+E3,sum(loss_causes)==attempts logged,pass,max abs diff 0
+E3,"attempts_hist reproduces total transmissions (tolerance 5 = transmissions still on air when the run ends, no gateway outcome logged yet)",pass,max abs diff 0; runs with diff>0: 0
+E3,attempts_hist counts all generated packets,pass,max abs diff 0
+E3,confirmed: acked<=delivered,pass,0 violations
+E3,unconfirmed: acked==0,pass,0 violations
+E3,node_level sums equal run totals,pass,max abs diff 0
+E3,seeds differ (distinct delivered counts per cell),pass,25/25 cells with >=2 seeds have distinct counts
+E3,effective config (simulator-logged) == requested run spec,pass,"250 runs, 0 mismatches (N, mode, interval, seed, channels/ADR)"
+E3,TX energy/delivered finite and >= one airtime*I*V,pass,"250 runs with deliveries, 0 violations; 0 runs with 0 deliveries"
+E3,"all runs completed, status ok",pass,0 runs not ok
+E4,"delivered<=generated and PDR in [0,1]",pass,"250 runs, 0 violations"
+E4,sum(loss_causes)==attempts logged,pass,max abs diff 0
+E4,"attempts_hist reproduces total transmissions (tolerance 5 = transmissions still on air when the run ends, no gateway outcome logged yet)",pass,max abs diff 3; runs with diff>0: 28
+E4,attempts_hist counts all generated packets,pass,max abs diff 0
+E4,confirmed: acked<=delivered,pass,0 violations
+E4,unconfirmed: acked==0,pass,0 violations
+E4,node_level sums equal run totals,pass,max abs diff 0
+E4,seeds differ (distinct delivered counts per cell),pass,25/25 cells with >=2 seeds have distinct counts
+E4,effective config (simulator-logged) == requested run spec,pass,"250 runs, 0 mismatches (N, mode, interval, seed, channels/ADR)"
+E4,TX energy/delivered finite and >= one airtime*I*V,pass,"250 runs with deliveries, 0 violations; 0 runs with 0 deliveries"
+E4,"all runs completed, status ok",pass,0 runs not ok
+E6,"delivered<=generated and PDR in [0,1]",pass,"280 runs, 0 violations"
+E6,sum(loss_causes)==attempts logged,pass,max abs diff 0
+E6,"attempts_hist reproduces total transmissions (tolerance 5 = transmissions still on air when the run ends, no gateway outcome logged yet)",pass,max abs diff 0; runs with diff>0: 0
+E6,attempts_hist counts all generated packets,pass,max abs diff 0
+E6,confirmed: acked<=delivered,pass,0 violations
+E6,unconfirmed: acked==0,pass,0 violations
+E6,node_level sums equal run totals,pass,max abs diff 0
+E6,seeds differ (distinct delivered counts per cell),pass,28/28 cells with >=2 seeds have distinct counts
+E6,effective config (simulator-logged) == requested run spec,pass,"280 runs, 0 mismatches (N, mode, interval, seed, channels/ADR)"
+E6,TX energy/delivered finite and >= one airtime*I*V,pass,"280 runs with deliveries, 0 violations; 0 runs with 0 deliveries"
+E6,"all runs completed, status ok",pass,0 runs not ok
+E7,"delivered<=generated and PDR in [0,1]",pass,"600 runs, 0 violations"
+E7,sum(loss_causes)==attempts logged,pass,max abs diff 0
+E7,"attempts_hist reproduces total transmissions (tolerance 5 = transmissions still on air when the run ends, no gateway outcome logged yet)",pass,max abs diff 0; runs with diff>0: 0
+E7,attempts_hist counts all generated packets,pass,max abs diff 0
+E7,confirmed: acked<=delivered,pass,0 violations
+E7,unconfirmed: acked==0,pass,0 violations
+E7,node_level sums equal run totals,pass,max abs diff 0
+E7,seeds differ (distinct delivered counts per cell),pass,60/60 cells with >=2 seeds have distinct counts
+E7,effective config (simulator-logged) == requested run spec,pass,"600 runs, 0 mismatches (N, mode, interval, seed, channels/ADR)"
+E7,TX energy/delivered finite and >= one airtime*I*V,pass,"600 runs with deliveries, 0 violations; 0 runs with 0 deliveries"
+E7,"all runs completed, status ok",pass,0 runs not ok
+E8,"delivered<=generated and PDR in [0,1]",pass,"240 runs, 0 violations"
+E8,sum(loss_causes)==attempts logged,pass,max abs diff 0
+E8,"attempts_hist reproduces total transmissions (tolerance 5 = transmissions still on air when the run ends, no gateway outcome logged yet)",pass,max abs diff 0; runs with diff>0: 0
+E8,attempts_hist counts all generated packets,pass,max abs diff 0
+E8,confirmed: acked<=delivered,pass,0 violations
+E8,unconfirmed: acked==0,pass,0 violations
+E8,node_level sums equal run totals,pass,max abs diff 0
+E8,seeds differ (distinct delivered counts per cell),pass,24/24 cells with >=2 seeds have distinct counts
+E8,effective config (simulator-logged) == requested run spec,pass,"240 runs, 0 mismatches (N, mode, interval, seed, channels/ADR)"
+E8,TX energy/delivered finite and >= one airtime*I*V,pass,"240 runs with deliveries, 0 violations; 0 runs with 0 deliveries"
+E8,"all runs completed, status ok",pass,0 runs not ok
+E9,"delivered<=generated and PDR in [0,1]",pass,"88 runs, 0 violations"
+E9,sum(loss_causes)==attempts logged,pass,max abs diff 0
+E9,"attempts_hist reproduces total transmissions (tolerance 5 = transmissions still on air when the run ends, no gateway outcome logged yet)",pass,max abs diff 0; runs with diff>0: 0
+E9,attempts_hist counts all generated packets,pass,max abs diff 0
+E9,confirmed: acked<=delivered,pass,0 violations
+E9,unconfirmed: acked==0,pass,0 violations
+E9,node_level sums equal run totals,pass,max abs diff 0
+E9,seeds differ (distinct delivered counts per cell),pass,7/7 cells with >=2 seeds have distinct counts
+E9,effective config (simulator-logged) == requested run spec,pass,"88 runs, 0 mismatches (N, mode, interval, seed, channels/ADR)"
+E9,TX energy/delivered finite and >= one airtime*I*V,pass,"68 runs with deliveries, 0 violations; 20 runs with 0 deliveries"
+E9,"all runs completed, status ok",pass,0 runs not ok
+ALL,same seed reproduces identical per-packet results (rerun E3_current_N50_s3000),pass,"4995 packets compared, identical=True"
