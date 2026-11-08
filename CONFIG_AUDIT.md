@@ -39,4 +39,4 @@ Each run writes `effective_config.txt` (all module parameters + counters), so ev
 ## Known limitations
 * E9 reproduces the analytic pure-ALOHA curve PDR = exp(-2G) (Bor et al. 2016 / Croce et al. 2020 model), not published testbed measurements. No hardware.
 * E6: downlink/ACK capacity and gateway demodulator limits are not modelled; ACKs never collide. No multi-gateway runs (author decision). No enhanced (slotted) MAC.
-* E2: intervals 5/10/30/60 s (120/300 s would need >2,500 nodes in this simulator).
+* E2: intervals 5, 10 and 30 s (120 s and 300 s would need more than 2,500 nodes in this simulator).
